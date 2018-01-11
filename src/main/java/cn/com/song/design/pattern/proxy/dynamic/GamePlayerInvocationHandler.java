@@ -4,6 +4,8 @@ import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Method;
 
 /**
+ * 动态代理
+ *
  * @author songchengjun
  * @date 2018/1/11 17:07
 */
