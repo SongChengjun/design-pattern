@@ -23,16 +23,21 @@ public class GamePlayerProxy implements IGamePlayer {
         this.gamePlayer = gamePlayer;
     }
 
+    @Override
     public void login(String name, String password) {
         this.gamePlayer.login(name, password);
     }
 
+    @Override
     public void killBoss() {
+        //前置处理
         this.before();
         this.gamePlayer.killBoss();
+        //后置处理
         this.after();
     }
 
+    @Override
     public void upgrade() {
         this.gamePlayer.upgrade();
     }

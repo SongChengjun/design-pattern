@@ -18,14 +18,17 @@ public class GamePlayer implements IGamePlayer {
         this.name = name;
     }
 
+    @Override
     public void login(String name, String password) {
         LOGGER.info(String.format("player %s login", name));
     }
 
+    @Override
     public void killBoss() {
         LOGGER.info("kill a big boss");
     }
 
+    @Override
     public void upgrade() {
         LOGGER.info("upgrade...");
     }
