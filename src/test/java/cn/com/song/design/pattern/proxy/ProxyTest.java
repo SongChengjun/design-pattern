@@ -2,7 +2,7 @@ package cn.com.song.design.pattern.proxy;
 
 import org.junit.Test;
 
-public class GamePlayerProxyTest {
+public class ProxyTest {
 
     @Test
     public void testProxy() {

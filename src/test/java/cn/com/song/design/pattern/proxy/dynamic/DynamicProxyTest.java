@@ -7,7 +7,7 @@ import org.junit.Test;
 import java.lang.reflect.InvocationHandler;
 import java.lang.reflect.Proxy;
 
-public class GamePlayerInvocationHandlerTest {
+public class DynamicProxyTest {
 
     @Test
     public void invoke() throws Exception {

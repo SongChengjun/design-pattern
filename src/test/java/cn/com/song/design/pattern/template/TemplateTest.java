@@ -2,7 +2,7 @@ package cn.com.song.design.pattern.template;
 
 import org.junit.Test;
 
-public class AbstractHummerModelTest {
+public class TemplateTest {
 
     @Test
     public void run() throws Exception {
