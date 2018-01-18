@@ -4,6 +4,8 @@ import org.junit.Test;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.ArrayList;
+
 public class UserAdapterTest {
 
     private final static Logger LOGGER = LoggerFactory.getLogger(UserAdapterTest.class);
@@ -14,6 +16,7 @@ public class UserAdapterTest {
         LOGGER.info(userInfo.getUserName());
         LOGGER.info(userInfo.getMobile());
         LOGGER.info(userInfo.getJobPosition());
+        new ArrayList<String>();
 
     }
 
