@@ -1,4 +1,4 @@
-package cn.com.song.design.pattern.Chain;
+package cn.com.song.design.pattern.chain;
 
 public class Request {
 

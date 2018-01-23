@@ -1,4 +1,4 @@
-package cn.com.song.design.pattern.Chain;
+package cn.com.song.design.pattern.chain;
 
 import org.junit.Test;
 import org.slf4j.Logger;
